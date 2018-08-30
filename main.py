@@ -13,12 +13,10 @@ images = soup.findAll('img')
 
 i=1
 for image in images:
-    print(image['src'])
-    urllib.request.urlretrieve(image['src'], str(i) + ".jpg")
-    i +=1
-
-    
-   #https://www.bbcgoodfood.com/recipes/2239/ultimate-fish-cakes
-    #403 Forbiddien
-   #https://www.foodnetwork.com/recipes/food-network-kitchen/cheesecake-recipe2-2011459
-    #// paths and imagess without src
+    if image['src'].startswith('//'):
+        imageSource = image['src'][2:]
+        print(imageSource)
+    else:
+        imageSource = image['src']
+    #urllib.request.urlretrieve(imageSource, str(i) + ".jpg")
+    #i +=1
