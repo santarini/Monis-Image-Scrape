@@ -1,5 +1,20 @@
 Go to website
+Get HTML
+Find all Img tags in HTML
+For each Img
+  Find src
+  Go to src
+  Download img to folder
+
+
+
+
+
+-----------
 Use regex to identify image extensions
 Create a folder for URL
-Download images to folder
 Check for image quality
+Name img
+
+
+If src =0
