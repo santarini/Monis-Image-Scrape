@@ -22,3 +22,9 @@ Name img
 
 ^^^^^^^^^^^
 If src does not exist
+https://www.foodnetwork.com/recipes/food-network-kitchen/cheesecake-recipe2-2011459
+
+
+
+If img src starts with //
+https://www.bbcgoodfood.com/recipes/2239/ultimate-fish-cakes
