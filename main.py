@@ -19,12 +19,14 @@ images = soup.findAll('img',{"src":True})
 
 i=1
 for image in images:
+    if ".com" not in image['src']:
+        continue
     if image['src'].startswith('//'):
         imageSource = image['src'][2:]
         imageSource = "http://" + imageSource
-        print(imageSource)
     else:
         imageSource = image['src']
+    print(imageSource)
         
     opener = urllib.request.build_opener()
     opener.addheaders = [('User-agent', device)]
