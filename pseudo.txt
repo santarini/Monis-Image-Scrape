@@ -1,0 +1,5 @@
+Go to website
+Use regex to identify image extensions
+Create a folder for URL
+Download images to folder
+Check for image quality
