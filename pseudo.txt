@@ -17,4 +17,8 @@ Check for image quality
 Name img
 
 
-If src =0
+
+
+
+^^^^^^^^^^^
+If src does not exist
