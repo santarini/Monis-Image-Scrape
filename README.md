@@ -7,7 +7,7 @@
 
 2.) Install Beautiful Soup
 
-3.) Download a Zip this repo
+3.) Download a .zip of this repo
 
 4.) Plug a list of urls into the input.csv
 
