@@ -9,6 +9,6 @@
 
 3.) Download a .zip of this repo
 
-4.) Plug a list of urls into the input.csv
+4.) Plug a list of URLs into the input.csv
 
 5.) Run ImageScrape executable 
